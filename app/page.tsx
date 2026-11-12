@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export default function Page() {
-    return (
-        <section className="flex items-center justify-center h-svh">
-            <div>
-                <h1 className="font-semibold">Hello world !</h1>
-            </div>
-        </section>
-    )
+  return (
+    <section className="flex h-svh items-center justify-center">
+      <div>
+        <h1 className="font-semibold">Hello world !</h1>
+      </div>
+    </section>
+  );
 }
