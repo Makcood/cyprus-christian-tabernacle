@@ -1,5 +1,5 @@
 {
-  "name": "ncctabernacle",
+  "name": "cyprus-christian-tabernacle",
   "version": "0.1.0",
   "private": true,
   "description": "Official website of the Northern Cyprus Christian Tabernacle, sharing its sermons, songs, books and beliefs.",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Makcood/northern-cyprus-christian-tabernacle.git"
+    "url": "git+https://github.com/Makcood/cyprus-christian-tabernacle.git"
   },
   "engines": {
     "node": "24.x",
@@ -44,6 +44,7 @@
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "react-icons": "^5.7.0",
+    "shadcn": "^4.23.0",
     "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
