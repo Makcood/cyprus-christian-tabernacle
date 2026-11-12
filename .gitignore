@@ -1,0 +1,36 @@
+# Dependencies
+/node_modules
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+
+# Testing
+/coverage
+
+# Environment variables
+.env*
+!.env.example
+
+# Tooling caches
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# Logs
+npm-debug.log*
+
+# AWS
+.amplify/
+amplify_outputs.json
+
+# Certificates
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
