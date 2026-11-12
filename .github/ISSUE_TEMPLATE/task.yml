@@ -1,0 +1,38 @@
+name: Task
+description: A single, well-defined piece of work
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe one clear piece of work and how to confirm it is done. If it belongs to an epic, add it as a sub-issue of that epic.
+
+  - type: textarea
+    id: value-proposition
+    attributes:
+      label: VALUE PROPOSITION
+      description: Why this task matters, in one sentence.
+      value: "> "
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-outcome
+    attributes:
+      label: EXPECTED OUTCOME
+      description: The checks that prove the task is done. Each point should be clear and testable.
+      value: |
+        > - [ ] 
+        > - [ ] 
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: NOTES
+      description: |
+        Optional. Add an alert only if the content needs one: `[!NOTE]`, `[!TIP]`, `[!IMPORTANT]`, `[!WARNING]` or `[!CAUTION]`.
+      placeholder: |
+        > [!WARNING]
+        > This task changes shared configuration. Check the other modules after merging.
