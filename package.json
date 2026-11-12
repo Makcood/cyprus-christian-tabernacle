@@ -31,7 +31,8 @@
     "format:fix": "prettier --write .",
     "typecheck": "next typegen && tsc --noEmit",
     "quality:fix": "npm run format:fix && npm run lint:fix && npm run lint:css:fix",
-    "quality:check": "npm run format && npm run lint && npm run lint:css && npm run build && npm run typecheck"
+    "quality:check": "npm run format && npm run lint && npm run lint:css && npm run build && npm run typecheck",
+    "prepare": "husky"
   },
   "dependencies": {
     "@commitlint/cli": "^21.2.4",
@@ -55,6 +56,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-simple-import-sort": "^14.0.0",
+    "husky": "^9.1.7",
     "prettier": "3.10.1",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "stylelint": "^18.0.0",
