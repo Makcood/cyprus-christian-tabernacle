@@ -1,12 +1,12 @@
 <p align="center">
-  <img src=".github/assets/preview.png" alt="Northern Cyprus Christian Tabernacle: home page preview" width="100%">
+  <img src=".github/assets/preview.png" alt="Cyprus Christian Tabernacle: home page preview" width="100%">
 </p>
 
 #### **OVERVIEW**
 
 ---
 
-Official website of the Northern Cyprus Christian Tabernacle, sharing its sermons, songs, books and beliefs across six pages: Home, Sermons, Songs, Books, What We Believe and Contact. Sermons and songs are synchronised from the church's YouTube channel, and the books can be read online or downloaded. The codebase prioritises long-term maintainability, with semantic and accessible markup, strict typing, validated configuration and automated quality checks on every commit.
+Official website of the Cyprus Christian Tabernacle, sharing its sermons, songs, books and beliefs across six pages: Home, Sermons, Songs, Books, What We Believe and Contact. Sermons and songs are synchronised from the church's YouTube channel, and the books can be read online or downloaded. The codebase prioritises long-term maintainability, with semantic and accessible markup, strict typing, validated configuration and automated quality checks on every commit.
 
 #### **STACK**
 
